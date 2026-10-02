@@ -1,0 +1,5 @@
+build/
+pptx_build/
+deck/
+__pycache__/
+assets/gen/
