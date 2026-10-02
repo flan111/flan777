@@ -55,7 +55,7 @@ const DSF = 2;
         while (e && e !== document.body) {
           const c = rgba(getComputedStyle(e).backgroundColor);
           if (c && c.a > 0.5) return c;
-          if (e.classList.contains('slide')) { const bg = e.querySelector('.bgfill'); if (bg) { const im = getComputedStyle(bg).backgroundImage; if (im.includes('255, 141')||im.includes('#FF8D26')) return { r: 250, g: 132, b: 30, a: 1 }; return { r: 45, g: 105, b: 160, a: 1 }; } return { r: 255, g: 255, b: 255, a: 1 }; }
+          if (e.classList.contains('slide')) { const bg = e.querySelector('.bgfill'); if (bg) { const im = getComputedStyle(bg).backgroundImage; if (im.includes('255, 141')||im.includes('#FF8D26')) return { r: 250, g: 132, b: 30, a: 1 }; return { r: 67, g: 100, b: 75, a: 1 }; } return { r: 255, g: 255, b: 255, a: 1 }; }
           e = e.parentElement;
         }
         return { r: 255, g: 255, b: 255, a: 1 };

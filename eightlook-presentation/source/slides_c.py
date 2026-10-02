@@ -66,8 +66,8 @@ def s_week(n, wi):
     return frame(n, 8, title, cards + strip, 'week', extra_css=EXTRA_CSS, title_style='font-size:62px;top:128px')
 
 
-DONUT = ['var(--b)', 'var(--o)', 'var(--y)', '#7FB0DC', 'var(--ink)']
-DONUT_HEX = ['2F6FA8', 'FF8D26', 'F6C342', '7FB0DC', '1E2A36']
+DONUT = ['var(--b)', 'var(--o)', 'var(--y)', '#A1B2A5', 'var(--ink)']
+DONUT_HEX = ['43644B', 'FF8D26', 'F6C342', 'A1B2A5', '1E2A36']
 
 
 def s_dist(n):
@@ -130,7 +130,7 @@ def s_path(n):
 
 # ================================================================ 9. content writing
 def phone(x, y, w, h, label, headline, d=0, tone='b', hsize=58):
-    bg = 'linear-gradient(160deg,#3B80BF,#2A6299)' if tone == 'b' else 'linear-gradient(160deg,#FFA040,#F57B14)'
+    bg = 'linear-gradient(160deg,#597660,#3A5841)' if tone == 'b' else 'linear-gradient(160deg,#FFA040,#F57B14)'
     col = '#fff' if tone == 'b' else 'var(--ink)'
     return f'''
  <div class="abs" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px;border-radius:56px;background:#fff;box-shadow:0 30px 70px rgba(30,42,54,.16),0 0 0 10px var(--ink) inset" data-x="snap" {A("rise", d, 900)}>

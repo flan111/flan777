@@ -91,7 +91,7 @@ CSS = r"""
 @font-face{font-family:"SS";src:url(assets/sakkal.otf) format("opentype");}
 :root{
  --o:#FF8D26;--o2:#E9720C;--o3:#FFB15E;--ot:#FFF1E3;
- --b:#2F6FA8;--b2:#5D96CB;--b3:#235A8C;--bt:#EEF4FA;--bl:#D7E6F4;
+ --b:#43644B;--b2:#859A8A;--b3:#36503C;--bt:#EEF2EF;--bl:#D9E0DB;
  --y:#F6C342;--y2:#F9D77A;--yt:#FFF7DE;
  --ink:#1E2A36;--mut:#5E6D7C;--line:#E4EBF2;--w:#fff;
 }
@@ -157,7 +157,7 @@ h1,h2,h3{font-weight:normal}
 /* ---------- dark slides */
 .dark{color:#fff;background:var(--b)}
 .bgfill{position:absolute;inset:0}
-.bg-blue{background:radial-gradient(1200px 900px at 85% 10%,#3C80BE 0%,rgba(60,128,190,0) 60%),linear-gradient(135deg,#2F6FA8 0%,#285F93 100%)}
+.bg-blue{background:radial-gradient(1200px 900px at 85% 10%,#5F7B66 0%,rgba(95,123,102,0) 60%),linear-gradient(135deg,#43644B 0%,#3A5841 100%)}
 .bg-orange{background:radial-gradient(1100px 800px at 15% 90%,#FFB15E 0%,rgba(255,177,94,0) 60%),linear-gradient(135deg,#FF8D26 0%,#F57B14 100%)}
 .grain{position:absolute;inset:0;background:url(assets/grain.png);opacity:.07}
 """

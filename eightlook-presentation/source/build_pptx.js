@@ -18,7 +18,7 @@ pres.author = 'زينب عبدالله الشراعي';
 const anims = [];
 for (const s of scene) {
   const slide = pres.addSlide();
-  slide.background = { color: s.dark ? '2F6FA8' : 'FFFFFF' };
+  slide.background = { color: s.dark ? '43644B' : 'FFFFFF' };
   const sAn = { n: s.n, tr: s.tr, items: [] };
   for (const it of s.items) {
     if (it.skip) continue;

@@ -42,7 +42,7 @@ open('assets/mark.svg','w').write(f'<svg xmlns="http://www.w3.org/2000/svg" view
 import os
 os.makedirs('assets/mark',exist_ok=True)
 pieces={'top':top,'bot':bot,'arc':arc}
-COLORS={'o':'#FF8D26','w':'#FFFFFF','y':'#F6C342','b':'#2F6FA8','ink':'#1E2A36'}
+COLORS={'o':'#FF8D26','w':'#FFFFFF','y':'#F6C342','b':'#43644B','ink':'#1E2A36'}
 meta={'full':[minx,miny,maxx,maxy]}
 for k,g in pieces.items():
     a,b_,c,d_=g.bounds
